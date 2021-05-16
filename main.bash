@@ -31,7 +31,7 @@ function main {
     fi
 
     local change_mac_address_status=$(change_mac_address "${interface}" "${new_address}")
-    if ! [[ -z change_mac_address_status ]]; then
+    if ! [[ -z "${change_mac_address_status}" ]]; then
         echo "An error occured while changing your MAC address. Please, verify the <INTERFACE> and the <NEW_ADDRESS>."
         exit 1
     fi
