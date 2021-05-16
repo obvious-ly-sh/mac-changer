@@ -1,3 +1,4 @@
+#!/bin/bash -e
 # Author : Quatrecentquatre-404
 # Date : 29/06/2020
 # GitHub link https://github.com/quatrecentquatre-404/mac-changer.git
